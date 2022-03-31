@@ -1,0 +1,19 @@
+@mixin hero {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
+header {
+  @include hero;
+  padding: 30px;
+}
+
+footer {
+  @include hero;
+  padding: 20px;
+}

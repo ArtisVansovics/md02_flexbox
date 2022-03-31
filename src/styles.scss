@@ -1,3 +1,12 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato&family=Poppins:wght@400;700&display=swap');
 
+@import "header&footer.scss";
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
+
+
