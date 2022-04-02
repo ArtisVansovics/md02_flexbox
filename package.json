@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-airbnb-base": "^14.2.1"
+    "eslint-config-airbnb-base": "^14.2.1",
+    "flexboxgrid": "^6.3.1"
   }
 }
