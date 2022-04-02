@@ -1,6 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato&family=Poppins:wght@400;700&display=swap");
 
+@import "buttons.scss";
+
+@import "card.scss";
+
+@import "colors.scss";
+
+@import "gallery.scss";
+
 @import "header&footer.scss";
+
+@mixin flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
 body {
   margin: 0;
@@ -10,10 +24,41 @@ body {
 }
 
 .wrapper {
-  display: flex;
+  @include flex;
   flex-flow: row wrap;
 }
 
 .wrapper > * {
   flex: 1 100%; /* All items will be 100% width */
+}
+
+.main {
+  @include flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.main__title-text {
+  @include flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  padding: 56px 96px 59px 56px;
+}
+
+.main__container {
+  @include flex;
+  flex-flow: row wrap;
+  padding: 56px 54px 63px 56px;
+}
+
+.main__container--gallery {
+  padding: 80px 165px 87px;
+}
+
+.main__container--subs {
+  padding: 0 67px 0;
+}
+
+.main__container--card {
+  padding: 101px 516px;
 }
