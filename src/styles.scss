@@ -47,6 +47,14 @@ body {
   padding: 56px 54px 63px 56px;
 }
 
+.section--gallery {
+  padding: 80px 165px 87px;
+}
+
+.section--buttons {
+  padding: 67px;
+}
+
 .section__header {
   display: flex;
   flex-flow: row wrap;
@@ -57,11 +65,27 @@ body {
   margin-right: 42px;
 }
 
+.section__header--bold {
+  border: none;
+  padding-bottom: 48px;
+  margin: 0;
+}
+
 .section__title {
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+}
+
+.section__title--bold {
+  color: #18191f;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-feature-settings: "salt" on, "liga" off;
 }
 
 .section__colors {
@@ -93,10 +117,17 @@ body {
   column-gap: 24.69px;
 }
 
+.section__row--gallery {
+  gap: 30px;
+}
+
 .section__col {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
+}
+
+.section__col--buttons {
 }
 
 .section__col--large {
