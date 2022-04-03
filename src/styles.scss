@@ -20,6 +20,7 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  max-width: 1440px;
 }
 
 .wrapper {
@@ -75,27 +76,29 @@ body {
   display: flex;
   width: 100%;
   flex-flow: row wrap;
-  column-gap: 24px;
+  gap: 24px;
 }
 
-/*
-
-.main__container {
-  @include flex;
-  flex-flow: row wrap;
-  padding: 56px 54px 63px 56px;
+.section__row--two-columns {
+  column-gap: 105.46px;
+  justify-content: space-between;
+  margin: 0 7px 0 1.6px;
 }
 
-.main__container--gallery {
-  padding: 80px 165px 87px;
+.section__row--three-columns {
+  justify-content: space-between;
 }
 
-.main__container--subs {
-  padding: 0 67px 0;
+.section__row--secondary {
+  column-gap: 24.69px;
 }
 
-.main__container--card {
-  padding: 101px 516px;
+.section__col {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
 }
 
-*/
+.section__col--large {
+  flex-grow: 1;
+}
