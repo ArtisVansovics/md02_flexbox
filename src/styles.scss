@@ -52,7 +52,11 @@ body {
 }
 
 .section--buttons {
-  padding: 67px;
+  padding: 0 67px 0 0;
+}
+
+.section--card {
+  padding: 101px 516px;
 }
 
 .section__header {
