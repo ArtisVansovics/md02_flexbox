@@ -1,0 +1,29 @@
+.rectangle {
+  padding: 50px;
+  border-radius: 12px;
+  border: none;
+  pointer-events: none;
+}
+
+.rectangle--gray900 {
+  background-color: #18191f;
+}
+
+.rectangle--gray800 {
+  background-color: #474a57;
+}
+
+.rectangle--gray700 {
+  background-color: #969bab;
+}
+.rectangle--gray300 {
+  background-color: #d9dbe1;
+}
+
+.rectangle--gray200 {
+  background-color: #eeeff4;
+}
+
+.rectangle--gray100 {
+  background-color: #f4f5f7;
+}

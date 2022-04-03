@@ -7,7 +7,7 @@
 .header {
   @include flex;
   width: 100%;
-  flex-flow: column wrap;
+  flex-direction: column;
   background-color: #333333;
   color: #ffffff;
   padding: 38px 64px 154px 53px;
