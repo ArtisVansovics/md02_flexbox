@@ -128,6 +128,8 @@ body {
 }
 
 .section__col--buttons {
+  align-items: flex-end;
+  row-gap: 32px;
 }
 
 .section__col--large {
