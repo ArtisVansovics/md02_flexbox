@@ -45,6 +45,13 @@
   letter-spacing: 0.02em;
   margin: 7px;
 }
+.navigation__link:hover {
+  color: #ffe074;
+}
+
+.navigation__link:active {
+  text-decoration: underline #ffe074 2px;
+}
 
 .header__main-text {
   @include flex;
